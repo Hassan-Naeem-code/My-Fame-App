@@ -4,7 +4,6 @@ import {GoogleSignin} from '@react-native-community/google-signin';
 import store, {persistor} from './Store/index';
 import Navigation from './Screens/Routes/Navigation';
 import {PersistGate} from 'redux-persist/integration/react';
-import {Text} from 'react-native';
 import Splash from './Screens/Splash Screen/splash';
 
 export default function App() {
